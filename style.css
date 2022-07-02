@@ -1,0 +1,156 @@
+/* body styling */
+
+body{background-color: rgb(0,0,0);
+  font-family: sans-serif;}
+
+/* header styling */
+header{width: 100%;
+  height: 100px;
+  text-align:center;
+  text-transform: capitalize; 
+  background-color: rgb(0,80,160);
+  padding:10px}
+
+header h1{float: left; 
+  padding: 10px}
+
+/* h1 heading styling */
+h1, h2{color: #FFFFFF;}
+
+/* nav anchor styling */
+.column0{float: right;padding: 20px}
+
+nav a{display: inline-block;
+  text-decoration: none;
+  text-align:center;
+  color: #FFFFFF;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;}
+
+nav a:hover{color: rgb(0,0,0);
+  background-color: rgb(255,255,255);
+  font-weight: bold;}
+
+/* main */
+main{display: inline-block;
+  vertical-align: text-top;
+  text-align: center;
+  width: 100%;}
+
+#Home{height: 300px; background:url(https://origaudiopromo.com/wp-content/uploads/2019/07/space-background-website.jpeg);
+  align-items: center;
+  justify-items: center;
+  padding: 300px}
+
+#Home p{color: rgb(255,255,255)}
+
+#About{background: rgb(0,20,80);
+  height:500px;
+  padding: 10px}
+
+#About p{color: #FFFFFF; font-size:150%}
+
+.svgicon1{display:inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;}
+
+.column1{display: inline-block;
+		width:20%;
+		float: center;
+		margin-left: 2%;} 
+
+#Rubrics{background-color: rgb(255,255,255);
+  padding: 10px;
+  height: 700px;}
+
+#Rubrics h2, #Rubrics p{color:rgb(0,0,0)}
+
+.svgicon2{display:inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;}
+
+.column2{display: inline-block;
+		width:30%;
+		float: center;
+		margin-left: 2%;} 
+
+#Contact{height: 300px; padding: 10px}
+
+.column3{display: inline-block;
+  color:#FFFFFF;
+  width:25%;
+  text-align: left;
+  padding-right: 50px;}
+
+.column3 img{width:75px; height:75px}
+
+.column4{display: inline-block;
+  color:#FFFFFF; width:70%;}
+
+fieldset input, fieldset textarea{
+  width:500px; height: 20px;}
+
+footer{position: fixed;
+  left: 0; bottom: 0;
+  width: 100%;
+  background-color: rgb(50,50,50);
+  color: white;
+  text-align: center;}
+
+/*smartphone view*/
+@media screen and (max-width:480px){
+  header{height: 140px;
+    text-align:center;}
+  
+  header h1{float: none}
+  
+  .column0{float:none; padding: 0px}
+  
+  nav a{display:inline;
+    background-color:rgb(255,255,255);
+    color: #000000; width: 100px;
+    padding: 5px; margin: 10px;}
+  
+  #Home{background:none;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    padding: 10px}
+  
+  #About{height:900px;font-size:100%}
+   
+  #About p{font-size:100%}
+  
+  .svgicon1{
+    width: 150px; height: 150px;
+    padding: 20px;}
+
+  .column1{width:100%; float: center;
+		margin-left: 2%;} 
+  
+  #Rubrics{padding: 10px; height: 1600px;
+  background-color: rgb(255,255,255)}
+
+  .svgicon2{width: 150px; height: 150px;}
+
+  .column2{width:100%;
+		float: center;} 
+  
+  #Contact{height: 500px}
+  
+  .column3{width:100%;
+    text-align: center;
+    padding: 10px;}
+  
+  .column4{width:100%;}
+
+  fieldset input, fieldset textarea{
+  width:300px;}
+}
