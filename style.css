@@ -62,7 +62,7 @@ main{display: inline-block;
 
 #Rubrics{background-color: rgb(255,255,255);
   padding: 10px;
-  height: 1100px;}
+  height: 1150px;}
 
 #Rubrics h2, #Rubrics p{color:rgb(0,0,0)}
 
@@ -136,18 +136,12 @@ footer{position: fixed;
    
   #About p{font-size:100%}
   
-  .svgicon1{
-    width: 150px; height: 150px;
-    padding: 20px;}
-
-  .column1{width:100%; float: center;} 
-  
   #Rubrics{padding: 10px; height: 2700px;}
 
-  .column2a, .column2b{
+  .column1, .column2a, .column2b{
     width:100%;float: center;} 
   
-  .svgicon2a, .svgicon2b{
+  .svgicon1, .svgicon2a, .svgicon2b{
     width: 150px; height: 150px;}	
   
   #Contact{height: 500px}
@@ -177,12 +171,17 @@ footer{position: fixed;
     padding: 5px; margin: 10px;}
   
   #Home{background:none;
-    height: 200px;
+    height: 100px;
     align-items: center;
     justify-items: center;
     padding: 10px}
   
-  #About{height:900px;font-size:100%}
-   
+  #About{height:400px;font-size:100%}
+  
+  #Rubrics{height:1000px;}
+  
   #About p{font-size:100%}
+	
+  .svgicon1, .svgicon2a, .svgicon2b{
+    width: 150px; height: 150px;}
 }
