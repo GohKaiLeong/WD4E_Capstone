@@ -67,12 +67,12 @@ main{display: inline-block;
 
 #Rubrics h2, #Rubrics p{color:rgb(0,0,0)}
 
-.column2{display: inline-block;
+.column2a{display: inline-block;
 		width:30%;
 		float: center;
 		margin-left: 2%;}
 
-.svgicon2{display:inline-block;
+.svgicon2a{display:inline-block;
 	  width: 200px;
 	  height: 200px;
 	  padding: 20px;
@@ -136,8 +136,8 @@ footer{position: fixed;
   
   #Rubrics{padding: 10px; height: 1600px;}
 
-  .column2{width:100%;float: center;} 
-  .svgicon2{width: 150px; height: 150px;}	
+  .column2a{width:100%;float: center;} 
+  .svgicon2a{width: 150px; height: 150px;}	
   
   #Contact{height: 500px}
   
